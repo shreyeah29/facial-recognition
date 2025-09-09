@@ -1,0 +1,60 @@
+.dashboard {
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+.dashboard h2 {
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+}
+
+.upload-section button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.upload-section button:hover {
+  background-color: #218838;
+}
+
+.preview {
+  margin-top: 20px;
+}
+
+.emotion {
+  margin-top: 20px;
+  font-size: 1.9rem;
+  font-weight: bolder;
+  color: #444;
+}
+.emotion-box {
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px solid #ccc;
+  width: 500px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  font-family:  's-serif',saSegoe UI; 
+}
+.dashboard {
+  padding-top: 200px; /* Adjust based on your navbar height */
+  overflow-y: auto;
+  height: calc(100vh - 200px); /* full height minus navbar */
+}
+
